@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Montserrat:wght@200&display=swap');
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 2.5rem;
+    color: #2e2e2e;
+    letter-spacing: .1rem;
+    font-family: 'Montserrat', sans-serif;
+    
+    .logo{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 3rem;
+        img{
+            margin-right: .5rem;
+        }
+        h1{
+            font-weight: 400;
+        }
+    }
+    .by-me{
+        white-space: nowrap;
+        font-weight: 400;
+    }
+}
+
+//Iphone
+@media screen and (max-width: 350px){
+    .header{
+        margin: 0 1rem;
+        .logo{
+            img{
+                width: 1rem;
+            }
+            h1{
+                font-size: .8rem;
+            }
+        }
+        .by-me{
+            font-size: .8rem;
+        }
+    }
+}
+
+//Iphone
+@media screen and (min-width: 351px) and (max-width: 599px){
+    .header{
+        margin: 0 1rem;
+        .logo{
+            img{
+                width: 1rem;
+            }
+            h1{
+                font-size: .8rem;
+            }
+        }
+        .by-me{
+            font-size: .8rem;
+        }
+    }
+}
+
+//Ipad and small tablet 
+@media screen and (min-width: 600px) and (max-width: 1023px){
+    .header{
+        margin: 0 1.5rem;
+        .logo{
+            img{
+                width: 1.5rem;
+            }
+            h1{
+                font-size: 1rem;
+            }
+        }
+        .by-me{
+            font-size: 1rem;
+        }
+    }
+}
+
+// Ipad pro 
+@media screen and (min-width: 1023px) and (max-width: 1919px){
+    .header{
+        margin: 0 2rem;
+        .logo{
+            img{
+                width: 1.5rem;
+            }
+            h1{
+                font-size: 1.2rem;
+            }
+        }
+        .by-me{
+            font-size: 1.2rem;
+        }
+    }
+}
+
+//desktop 
+@media screen and (min-width: 1920px){
+    .header{
+        margin: 0 2rem;
+        .logo{
+            img{
+                width: 1.5rem;
+            }
+            h1{
+                font-size: 1.2rem;
+            }
+        }
+        .by-me{
+            font-size: 1.2rem;
+        }
+    }
+}
